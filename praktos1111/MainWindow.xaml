@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:praktos1111"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="569" Width="913">
     <Grid Margin="197,-127,186,251">
 
-        <Button x:Name="Page_1" Grid.Column="0" Content="Открыть таблицу Users" Margin="-158,141,352,100" Click="page_click"/>
-        <Button x:Name="Page_2" Content="Открыть таблицу Addresses" Margin="70,141,124,100" Click="Page2_click"/>
-        <Button x:Name="Page_3" Content="Открыть таблицу Orders" Margin="298,141,-104,100" Click="Page3_click"/>
+        <Button x:Name="Page_1" Grid.Column="0" Content="Открыть таблицу Users" Margin="-158,141,465,194" Click="page_click"/>
+        <Button x:Name="Page_2" Content="Открыть таблицу Addresses" Margin="70,141,237,194" Click="Page2_click"/>
+        <Button x:Name="Page_3" Content="Открыть таблицу Orders" Margin="298,141,-41,194" Click="Page3_click"/>
         <Frame x:Name= "PageFrame" Margin="-158,213,-104,-237"/>
     </Grid>
 </Window>

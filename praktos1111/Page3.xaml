@@ -10,8 +10,15 @@
 
     <Grid>
         <Grid Background="BlanchedAlmond">
-            <ComboBox x:Name="combo_datasetic" Margin="436,90,10,49" SelectionChanged="combo_datasetic_SelectionChanged" Background="Black"/>
-            <DataGrid x:Name="datasetik" HorizontalAlignment="Left" Width="354" Margin="46,84,0,44"  />
+            <ComboBox x:Name="combo_datasetic" Margin="541,10,10,374" SelectionChanged="combo_datasetic_SelectionChanged" Background="Black"/>
+            <DataGrid x:Name="datasetik" HorizontalAlignment="Left" Width="491" Margin="10,10,0,174" SelectionChanged="datasetik_SelectionChanged" />
+            <Button Content="Добавить" Margin="10,394,568,10" Click="button_add" />
+            <Button Content="Удалить" Margin="259,394,319,10" Click="button_delete" />
+            <Button Content="Изменить" Margin="497,394,81,10" Click="button_change" />
+            <TextBox x:Name="Nametbx" Margin="10,332,630,61" RenderTransformOrigin="0.5,0.5"  />
+            <TextBox x:Name="Nametbx2" Margin="175,332,485,61" RenderTransformOrigin="0.613,0.521"  />
+            <TextBox x:Name="Nametbx3" Margin="320,332,332,61" RenderTransformOrigin="0.5,0.5"  />
+            <TextBox x:Name="Nametbx4" Margin="473,332,179,61" RenderTransformOrigin="0.5,0.5"  />
         </Grid>
     </Grid>
 </Page>
